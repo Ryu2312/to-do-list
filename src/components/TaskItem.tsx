@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HandleTasks, Task } from "./type";
+import { HandleTasks, Task } from "../type";
 
 export default function TaskItem({
   task,

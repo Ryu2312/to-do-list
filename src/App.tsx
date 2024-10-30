@@ -1,7 +1,7 @@
 import { useTasks } from "./hooks/useTasks";
-import SortTask from "./SortTask";
-import TaskInput from "./TaskInput";
-import TaskList from "./TaskList";
+import SortTask from "./components/SortTask";
+import TaskInput from "./components/TaskInput";
+import TaskList from "./components/TaskList";
 
 export default function App() {
   const handleTasks = useTasks();

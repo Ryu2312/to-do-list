@@ -1,4 +1,4 @@
-import { Sort } from "./type";
+import { Sort } from "../type";
 
 export default function SortTask({
   setRules,

@@ -1,4 +1,4 @@
-import { Task, HandleTasks } from "./type";
+import { Task, HandleTasks } from "../type";
 import TaskItem from "./TaskItem";
 
 export default function TaskList({
