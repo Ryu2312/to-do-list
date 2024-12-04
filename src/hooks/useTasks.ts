@@ -5,6 +5,7 @@ export const useTasks = () => {
   const [rules, setRules] = useState<Sort>({
     sort_by: "due_date-asc",
   });
+
   const [tasks, setTasks] = useState<Task[]>(() => {
     const storedTasks = localStorage.getItem("tasks");
     return storedTasks ? JSON.parse(storedTasks) : [];

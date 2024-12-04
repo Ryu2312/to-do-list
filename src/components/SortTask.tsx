@@ -20,14 +20,14 @@ export default function SortTask({
       onChange={handleSort}
       className="text-sm flex justify-evenly md:flex-col md:w-44 "
     >
-      <div className="inline-flex flex-col gap-1 mb-2">
+      <div className="inline-flex flex-col gap-1 mb-2 border">
         <label htmlFor="sort_by" className="font-medium">
           Sort by
         </label>
         <select
-          id="sort_by"
+          id="sort_bysort_by"
           name="sort_by"
-          className="border py-2 px-3 rounded-lg outline-offset-2 focus:outline-double outline-2 outline-gray-200"
+          className="py-2 px-3 rounded-lg outline-offset-2 focus:outline-double outline-2 outline-gray-200"
         >
           <option value="due_date-asc">Due Date (old first)</option>
           <option value="due_date-desc">Due Date (new first)</option>
